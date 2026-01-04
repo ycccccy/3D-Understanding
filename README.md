@@ -1,8 +1,9 @@
 <div align="center">
     <h1 style="display: inline-flex; align-items: center;">
-        3D Scene Understanding
+        Awesome LLMs for 3D Scene Understanding
     </h1>
 </div>
+
 This document summarizes cutting-edge research on 3D scene understanding and foundation models, covering innovative frameworks, datasets, and benchmarks for enhanced spatial reasoning. This document will be continuously updated.
 
 

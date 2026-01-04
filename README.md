@@ -18,7 +18,7 @@ This document summarizes cutting-edge research on 3D scene understanding and fou
 ## 🌟 3D Scene Understanding
 | Method (Pub.) | Paper | Input | Framework | Data | Project |
 |---------------|-------|-------|-----------|------|---------|
-| **S²-MLLM (2025-12)** | [S²-MLLM: Boosting Spatial Reasoning Capability of MLLMs for 3D Visual Grounding with Structural Guidance](https://arxiv.org/pdf/2512.01223) | Multi-view RGB / Text Depth / Point map/ Ray| — | ScanRefer / Nr3D / Sr3D / Multiscan / ArkiScenes | https://3dthinker.github.io |
+| **S²-MLLM (2025-12)** | [S²-MLLM: Boosting Spatial Reasoning Capability of MLLMs for 3D Visual Grounding with Structural Guidance](https://arxiv.org/pdf/2512.01223) | Multi-view RGB / Text Depth / Point map/ Ray| — | ScanRefer / Nr3D / Sr3D / Multiscan / ArkiScenes | |
 | **SpaceDrive (2025-12)** | [SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719v1) | Multi-view RGB / Depth / 3D position / Text | — | nuScenes / Bench2Drive | https://zhenghao2519.github.io/SpaceDrive_Page/ |
 | **DSR (2025-12)** | [Learning to Reason in 4D: Dynamic Spatial Reasoning for Vision-Language Models](https://arxiv.org/abs/2512.20557) | RGB video / Text /Poses / Masks / Agent| — | DSR-Bench| https://dsr-benchmark.github.io |
 | **VLM² (2025-11)** | [Vision-Language Model with Memory for Spatial Reasoning in 3D Found](https://arxiv.org/abs/2511.20644) | RGB video / Text | — | VSI-Bench / VSTI-Bench / ScanQA / SQA3D | https://vlm2-memory.github.io |

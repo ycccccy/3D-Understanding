@@ -3,7 +3,7 @@
         3D Scene Understanding
     </h1>
 </div>
-This document summarizes cutting-edge research on 3D scene understanding and foundation models, covering innovative frameworks, datasets, and benchmarks for enhanced spatial reasoning. This document will be continuously updated.
+This document summarizes current research on 3D scene understanding and foundation models, covering innovative frameworks, datasets, and benchmarks for enhanced spatial reasoning. This document will be continuously updated.
 
 
 ## 📖 News

@@ -36,3 +36,32 @@
 | [Fast3R](https://github.com/facebookresearch/fast3r) (2025-01) | [Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/abs/2501.13928) | <img width="700" alt="image" src="./Figs/3D_Foundation_Model/Fast3R.png"/> | CO3D-v2 / RealEstate10K / 7 Scenes / Mip-NeRF 360 |
 | [CUT3R](https://cut3r.github.io/) (2025-01) | [CUT3R: Continuous Updating Transformer for 3D Reconstruction](https://arxiv.org/abs/2501.12387) | <img width="700" alt="image" src="./Figs/3D_Foundation_Model/CUT3R.png"/> | Sintel  / Bonn / KITTI / NYU-v2 / TUM-dynamics  / ScanNet / 7 scenes / NRGBD |
 | [DUSt3R](https://github.com/naver/dust3r) (2023-12) | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/abs/2312.14132) | <img width="700" alt="image" src="./Figs/3D_Foundation_Model/DUSt3R.png"/> | 7Scenes / Cambridge  / KITTI / ScanNet / ETH3D / DTU / T&T |
+
+
+
+## Experimental results on 3D scene understanding benchmarks
+
+“Expert Models” train a separate model for each task, whereas “Generalist MLLMs” train a single model for all tasks.
+
+| Method                  | Point Encoder | ScanRefer                  |             | Multi3DRefer               |             | Scan2Cap                   |             | ScanQA             |         | SQA3D   |
+|-------------------------|---------------|----------------------------|-------------|----------------------------|-------------|----------------------------|-------------|--------------------|---------|---------|
+|                         |               | Acc@0.25                   | Acc@0.5     | F1@0.25                    | F1@0.5      | C@0.5                      | B-4@0.5     | C                  | EM      | EM      |
+| **Expert Models**       |               |                            |             |                            |             |                            |             |                    |         |         |
+| 3D-VLP                  | ✓             | 51.4                       | 39.5        | —                          | —           | 54.9                       | 32.3        | 67.0               | 21.7    | —       |
+| 3D-VisTA                | ✓             | 50.6                       | 45.8        | —                          | —           | 61.6                       | 34.0        | 69.6               | 22.4    | 48.5    |
+| 3DJCG                   | ✓             | 49.6                       | 37.3        | —                          | 26.6        | 49.5                       | 31.0        | —                  | —       | —       |
+| **Generalist MLLMs**    |               |                            |             |                            |             |                            |             |                    |         |         |
+| 3D-LLM                  | ✓             | 30.3                       | –           | –                          | –           | –                          | –           | 69.4               | 20.5    | 49.4    |
+| Chat-3D v2              | ✓             | 42.5                       | 38.4        | 45.1                       | 41.6        | 63.9                       | 31.8        | 87.6               | –       | 54.7    |
+| LL3DA                   | ✓             | –                          | –           | –                          | –           | 62.9                       | 36.0        | 76.8               | –       | –       |
+| SceneLLM                | ✓             | –                          | –           | –                          | –           | –                          | –           | 80.0               | 27.2    | 53.6    |
+| LEO                     | ✓             | –                          | –           | –                          | –           | 72.4                       | 38.2        | **101.4**          | 21.5    | 50.0    |
+| Grounded 3D-LLM         | ✓             | 47.9                       | 44.1        | 45.2                       | 40.6        | 70.6                       | 35.5        | 72.7               | –       | –       |
+| PQ3D                    | ✓             | **57.0**                   | **51.2**    | –                          | **50.1**    | **80.3**                   | 36.0        | –                  | –       | 47.1    |
+| ChatScene               | ✓             | 55.5                       | 50.2        | **57.1**                   | **52.4**    | 77.1                       | 36.3        | 87.7               | 21.6    | 54.6    |
+| Ross3D†                 | —             | **60.6**                   | **54.1**    | **58.8**                   | **53.8**    | **82.2**                   | **46.4**    | **105.1**          | **30.6**| **60.6**|
+| LLaVA-3D                | —             | 54.1                       | 42.4        | –                          | –           | 79.2                       | 41.1        | 91.7               | 27.0    | 55.6    |
+| Inst3D-LLM              | ✓             | 57.8                       | 51.6        | 58.3                       | 53.5        | 79.7                       | 38.3        | 88.6               | 24.6    | –       |
+| 3D-LLaVA                | ✓             | 51.2                       | 40.6        | –                          | –           | 78.8                       | 36.9        | 92.6               | –       | 54.5    |
+| Video-3D LLM            | —             | 58.1                       | 51.7        | 58.0                       | 52.7        | 83.8                       | 41.3        | 102.1              | 30.1    | 58.6    |
+| MILO                    | —             | **61.3**                   | **54.7**    | **59.4**                   | **54.2**    | **85.6**                   | **47.5**    | **107.3**          | **31.0**| **60.9**|

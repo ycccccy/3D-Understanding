@@ -1,3 +1,21 @@
+# 🎬 Awesome 3D Scene Understanding Papers
+
+<div align="center">
+
+### 📚 A Curated Collection of Research Papers on 3D Understanding with LMMs
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Papers](https://img.shields.io/badge/Papers-40+-blue)
+![Updated](https://img.shields.io/badge/Updated-2026-green)
+
+**Focus Areas:** 3D understanding, 3D foundation model
+
+</div>
+
+---
+
+
+
 ## 🌟 3D Scene Understanding
 | Method | Paper | Input | Framework | Data |
 |---------------|-------|-------|-----------|------|

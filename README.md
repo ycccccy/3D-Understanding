@@ -1,5 +1,5 @@
 ## 🌟 3D Scene Understanding
-| Method (Pub.) | Paper | Input | Framework | Data |
+| Method | Paper | Input | Framework | Data |
 |---------------|-------|-------|-----------|------|
 | S²-MLLM (2025-12) | [S²-MLLM: Boosting Spatial Reasoning Capability of MLLMs for 3D Visual Grounding with Structural Guidance](https://arxiv.org/pdf/2512.01223) | RGB-D / Camera Para / Text / object proposals / Point Map| <img width="700" alt="image" src="./Figs/3D_Scene_Understanding/S2-MLLM.png"/> | ScanRefer / Nr3D / Sr3D / Multiscan / ArkiScenes |
 | [SpaceDrive](https://zhenghao2519.github.io/SpaceDrive_Page/) (2025-12) | [SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719v1) | RGB-D / 3D Position / Text | <img width="700" alt="image" src="./Figs/3D_Scene_Understanding/Spacedrive.png"/> | nuScenes / Bench2Drive |
@@ -24,7 +24,7 @@
 | SITE | [SITE: BRIDGING TEXT AND IMAGE MODALITIES WITH LLMS FOR 3D SCENE UNDERSTANDING](https://openreview.net/pdf/fa6e3cb48582a19b228a5cbc3373874931a9e970.pdf)|  | <img width="700" alt="image" src="./Figs/3D_Scene_Understanding/SITE.png"/>  | Multi3DRef / ScanRefer3D / Scan2Cap / ScanQA / SQA3D / METEOR / ROUGE / BLEU-4  / CIDEr
 
 ## 🌙 3D Foundation Model
-| Method (Pub.) | Paper | Framework | Data |
+| Method | Paper | Framework | Data |
 |---------------|-------|-----------|------|
 | [Depth Anything 3](https://depth-anything-3.github.io) (2025-11) | [Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647) | <img width="700" alt="image" src="./Figs/3D_Foundation_Model/DA3.png"/> | HiRoom / ETH3D / DTU / 7Scenes / ScanNet++ |
 | [STream3R](https://nirvanalan.github.io/projects/stream3r/) (2025-08) | [STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer](https://arxiv.org/abs/2508.10893) | <img width="700" alt="image" src="./Figs/3D_Foundation_Model/STREAM3R.png"/> | Sintel  / Bonn / KITTI / NYU-v2 / TUM-dynamics  / ScanNet |

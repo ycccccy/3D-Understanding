@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 📚 A Curated Collection of Research Papers on 3D Understanding with LMMs
+### 📚 A Curated Collection of Research Papers on 3D Understanding with LLMs
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/Papers-40+-blue)
